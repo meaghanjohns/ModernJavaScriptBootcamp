@@ -1,15 +1,23 @@
 // Practice Exercise
 
-let temp = 32;
-let isFreezing = temp <= 32;
+let temp = 115;
 
-console.log(isFreezing);
+if (temp <= 32) {
+    console.log("It is freezing outside!");
+};
+
+if (temp >= 110){
+    console.log("It is way too hot outside!");
+};
 
 // Challenge: Determine if the patron is a child or a senior based on the given age.
 
-let age = 66;
-let isChild = age <= 7;
-let isSenior = age >= 65;
+let age = 6;
 
-console.log(isChild);
-console.log(isSenior);
+if (age <= 7) {
+    console.log("You will receive the children's discount.");
+};
+
+if (age >= 65){
+    console.log("You will receive the senior citizen's discount.");
+};
